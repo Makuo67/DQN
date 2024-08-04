@@ -5,6 +5,8 @@ import numpy as np
 
 
 class HospitalEnv(gym.Env):
+    metadata = {'render.modes': ['human']}
+
     def __init__(self):
         super(HospitalEnv, self).__init__()
         # 4 possible actions: up, down, left, right
