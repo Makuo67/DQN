@@ -81,4 +81,4 @@ python visualize.py
 
 Watch the demo of the project on YouTube: [Demo Video](https://www.youtube.com/watch?v=r5rRPuKl84E)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r5rRPuKl84E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/r5rRPuKl84E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
