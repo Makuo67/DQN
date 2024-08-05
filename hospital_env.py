@@ -19,9 +19,11 @@ class HospitalEnv(gym.Env):
     def reset(self):
         self.state = np.zeros((5, 5, 1), dtype=np.float32)
         self.state[0, 0, 0] = 1  # agent's starting position
-        self.state[2, 2, 0] = -1  # obstacle: doctor
-        self.state[3, 3, 0] = -1  # obstacle: nurse
-        self.state[4, 4, 0] = 2  # goal: medicine cabinet
+        self.state[2, 2, 0] = -1  # hospital bed
+        self.state[3, 3, 0] = -1  # hospital bed
+        self.state[4, 4, 0] = 2  # operation area
+        self.state[3, 1, 0] = -1  # hospital bed
+        self.state[4, 2, 0] = -1  # hospital bed
         return self.state
 
     def step(self, action):

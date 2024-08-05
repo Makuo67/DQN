@@ -46,7 +46,7 @@ dqn = build_agent(model, actions)
 dqn.compile(optimizers.Adam(learning_rate=1e-3), metrics=['mae'])
 
 # Load the trained weights
-dqn.load_weights('dqn_weights.h5f')
+dqn.load_weights('dqn_weights2.h5f')
 
 # Visualization function
 
@@ -74,7 +74,7 @@ def render(env):
                     j * 100, i * 100, 100, 100))
 
         pygame.display.flip()
-        clock.tick(1)  # 1 FPS
+        clock.tick(0.8)  # 1 FPS
 
         env.state = next_state
 

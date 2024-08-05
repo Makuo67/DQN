@@ -38,7 +38,7 @@ def build_agent(model, actions):
 
 dqn = build_agent(model, actions)
 dqn.compile(optimizers.Adam(learning_rate=1e-3), metrics=['mae'])
-dqn.fit(env, nb_steps=50000, visualize=False, verbose=1)
+dqn.fit(env, nb_steps=50000, visualize=True, verbose=1)
 
 # Save the weights of the trained model
-dqn.save_weights('dqn_weights.h5f', overwrite=True)
+dqn.save_weights('dqn_weights2.h5f', overwrite=True)

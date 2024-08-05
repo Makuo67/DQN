@@ -37,7 +37,7 @@ dqn = build_agent(model, actions)
 dqn.compile(optimizers.Adam(learning_rate=1e-3), metrics=['mae'])
 
 # Load the trained weights
-dqn.load_weights('dqn_weights.h5f')
+dqn.load_weights('dqn_weights2.h5f')
 
 # Simulate the agent in the environment
 dqn.test(env, nb_episodes=5, visualize=True)
