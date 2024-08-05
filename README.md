@@ -48,8 +48,8 @@ Visualizes the agent's actions in the hospital environment using Pygame. It prov
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/doctors-assistant.git
-   cd doctors-assistant
+   git clone https://github.com/Makuo67/DQN.git
+   cd DQN
    ```
 
 2. Install the required packages:
@@ -79,6 +79,6 @@ python visualize.py
 
 ## Demonstration
 
-Watch the demo of the project on YouTube: [Demo Video](https://www.youtube.com/watch?v=https://youtu.be/r5rRPuKl84E)
+Watch the demo of the project on YouTube: [Demo Video](https://www.youtube.com/watch?v=r5rRPuKl84E)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/r5rRPuKl84E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r5rRPuKl84E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
